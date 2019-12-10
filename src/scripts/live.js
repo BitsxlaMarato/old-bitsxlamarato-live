@@ -22,13 +22,11 @@
 		'live': 'live',
 		'dayof': 'dayof',
 		'rules': 'rules',
-		'travel': 'travel',
-		'streaming': 'streaming',
+		'hardware': 'hardware',
 		'faq': 'faq',
 		'schedule': 'schedule',
 		'challenges': 'challenges',
-		'map': 'map',
-		'mentors': 'mentors'
+		'sponsors': 'sponsors'
 	}
 
 	let icons = {
