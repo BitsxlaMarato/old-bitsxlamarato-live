@@ -249,7 +249,7 @@
 			// running = true
 		} else {
 			if (current > CONST.HACKATHON_DURATION) {
-				obj.hours = 41
+				obj.hours = 43
 			}
 		}
 
