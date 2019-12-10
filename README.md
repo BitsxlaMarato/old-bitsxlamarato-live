@@ -13,7 +13,7 @@ sudo n latest
 ```
 
 ```sh
-git clone git@github.com:hackupc/frontend.git
+git clone git@github.com:hackupc/bitsxlamarato-live.git
 cd frontend
 npm install
 ```
