@@ -410,7 +410,7 @@
   * Added actual datetime to avoid browser cached copies of schedule
   */
 	function updateSchedule (cb) {
-		Util.loadFile('/data/schedule.json?date=' + Util.getNowDate().getTime(), function (data) {
+		Util.loadFile('https://raw.githubusercontent.com/hackupc/bitsxlamarato-live/master/src/data/schedule.json?date=' + Util.getNowDate().getTime(), function (data) {
 			var newSchedule = JSON.parse(data)
 
 			if (!newSchedule.version) { malformedDataError() }
@@ -594,23 +594,6 @@
 			Util.releaseScroll(body)
 		}, CONST.ASIDE_OPEN_ANIMATION_DURATION)
 	}
-
-	/// /////////////////////
-	// MLH Hardware Lab
-	/// /////////////////////
-
-	/* function buildHardwareLab(cb) {
-    Util.loadFile('https://hardware.mlh.io/events/hackupc-winter.json?date='+Util.getNowDate().getTime(), function(data) {
-      var hardElems = JSON.parse(data)['data']
-      var hardList = document.getElementById("hardwareList")
-      hardList.innerHTML=""
-      hardElems.forEach(function(hardElem) {
-        hardList.appendChild(
-          Util.inflateWith("hardwareElem", hardElem)
-        )
-      })
-    })
-  } */
 
 	/// /////////////////////
 	// Initialization

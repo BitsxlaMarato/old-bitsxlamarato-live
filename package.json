@@ -26,7 +26,6 @@
     "images:minify": "# --Commented-- Help, nothing works: imagemin-cli does not keep folders, node-compress-image-cli does not detect compress command, imageoptim-cli is only for mac. Workarround: use github image bot",
     "dist:data": "cp -a src/data/. dist/data",
     "dist:html": "cp src/*.html dist",
-    "dist:htmlNEW": "cp src/live.html dist/index.html",
     "dist:lib": "npm-run-all --parallel lib:*",
     "lib:folder": "cp -a src/lib/. dist/lib",
     "lib:lax.js": "cp node_modules/lax.js/lib/lax.min.js dist/lib",
