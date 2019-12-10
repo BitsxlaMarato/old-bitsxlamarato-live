@@ -56,9 +56,9 @@
 				},
 				{
 					"id": "5",
-					"title": "HP",
+					"title": "Ironman i Joc virtual",
 					"talk": true,
-					"author": "Ironman i Joc virtual",
+					"author": "HP",
 					"startHour": "21:15",
 					"endHour": "21:45",
 					"locationId": "A6001",
@@ -140,7 +140,7 @@
 			]
 		},
 		{
-			"name":"Saturday",
+			"name":"Dissabte",
 			"date":"14/12/2019",
 			"events":
 			[
@@ -206,7 +206,7 @@
 			]
 		},
 		{
-			"name":"Sunday",
+			"name":"Diumenge",
 			"date":"15/12/2019",
 			"events":
 			[
