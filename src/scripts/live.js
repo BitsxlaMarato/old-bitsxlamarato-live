@@ -421,6 +421,7 @@
 				generateScheduleCompositedFields()
 				if (typeof cb === 'function') { cb() }
 				console.info('Schedule updated on (' + Util.getNowDate() + '): \n' + schedule.message)
+				// console.info(schedule)
 			} else {
 				console.info('Schedule up to date')
 			}

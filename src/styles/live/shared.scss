@@ -118,7 +118,7 @@ a {
 	-webkit-overflow-scrolling: touch;
 
 	&::before {
-		box-shadow: 0 325px 100px -200px #f4f4f4 inset;
+		box-shadow: 0 325px 100px -200px #010029 inset;
 		position: fixed;
 		width: 100%;
 		height: 250px;
@@ -128,7 +128,7 @@ a {
 	}
 
 	&::after {
-		box-shadow: 0 -250px 100px -200px #f4f4f4 inset;
+		box-shadow: 0 -250px 100px -200px #010029 inset;
 		position: fixed;
 		width: 100%;
 		height: 200px;
@@ -166,8 +166,8 @@ a {
 			min-height: 10px;
 			padding: 0 0 0 15px;
 			font-size: 28px;
-			border-left: 3px solid $secondaryTextColor;
-			color: $secondaryTextColor;
+			border-left: 3px solid $contrastColor;
+			color: $contrastColor;
 			align-content: flex-start;
 			&:last-child { margin-bottom: 400px; }
 			/* stylelint-disable */
@@ -176,12 +176,12 @@ a {
 			/* stylelint-enable */
 			&.happened {
 				opacity: 1;
-				border-left: 2px solid fade($secondaryTextColor, 25%);
+				border-left: 2px solid fade($contrastColor, 25%);
 			}
 			&.happening::before {
 				content: '\f061';
 				font: normal normal normal 14px/1 FontAwesome, sans-serif;
-				color: $secondaryTextColor;
+				color: $contrastColor;
 				position: absolute;
 				margin-top: -7.5px;
 				left: -35px;
@@ -190,7 +190,7 @@ a {
 			a {
 				display: block;
 				margin-right: 10px;
-				color: $secondaryColor;
+				color: $buttonColor;
 				&::before {
 					font-family: FontAwesome, sans-serif;
 					content: '\f041';
@@ -265,6 +265,7 @@ a {
 		img {
 			width: 100%;
 			opacity: 0.2;
+			display: none;
 		}
 	}
 }
