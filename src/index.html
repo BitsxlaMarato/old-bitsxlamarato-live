@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- SEO -->
-	<title>Live | bitsxlaMarató</title>
+	<title>Live | bitsxlamarato</title>
 	<meta name="description"      content="Hackathon per les malaties minoritàries">
 	<meta name="author"           content="Hackers@UPC">
 	<meta name="web_author"       content="Hackers@UPC">
@@ -154,6 +154,9 @@
 				<li data-bind-view="hardware">
 					<a href="#/hardware">Hardware</a>
 				</li>
+				<li data-bind-view="mapa">
+					<a href="#/mapa">Mapa</a>
+				</li>
 				<li data-bind-view="rules">
 					<a href="#/rules">Normes</a>
 				</li>
@@ -162,6 +165,9 @@
 				</li>
 				<li data-bind-view="sponsors">
 					<a href="#/sponsors">Sponsors</a>
+				</li>
+				<li data-bind-view="web">
+					<a target="_blank" href="https://www.fib.upc.edu/la-marato">Web</a>
 				</li>
 			</ul>
 		</nav>
@@ -182,6 +188,9 @@
 				<li data-bind-view="hardware">
 					<a href="#/hardware">Hardware</a>
 				</li>
+				<li data-bind-view="mapa">
+						<a href="#/mapa">Mapa</a>
+					</li>
 				<li id="countdown-li">
 					<div class="countdown">
 						<div id="countdown-time" class="countdown-time">
@@ -203,6 +212,9 @@
 				</li>
 				<li data-bind-view="sponsors">
 					<a href="#/sponsors">Sponsors</a>
+				</li>
+				<li data-bind-view="web">
+					<a target="_blank" href="https://www.fib.upc.edu/la-marato">Web</a>
 				</li>
 			</ul>
 		</nav>
@@ -797,7 +809,10 @@
 					</div>
 				</div>
 			</div>
-
+		</article>
+		<article id="mapa" class="under-header padding-bottom">
+			<img style="text-align: center;" src="/assets/img/maps/indoors.png" alt="Indoors Map" id="map-indoors">
+			<img src="/assets/img/live/campus.svg" alt="Campus Map" id="map-campus" style="display: none;">
 		</article>
 	</main>
 

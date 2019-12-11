@@ -26,7 +26,8 @@
 		'faq': 'faq',
 		'schedule': 'schedule',
 		'challenges': 'challenges',
-		'sponsors': 'sponsors'
+		'sponsors': 'sponsors',
+		'mapa': 'mapa'
 	}
 
 	let icons = {
