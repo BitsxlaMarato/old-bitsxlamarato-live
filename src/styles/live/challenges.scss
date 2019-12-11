@@ -13,3 +13,27 @@
 		}
 	}
 }
+
+.container {
+	.panel {
+		.expl-container {
+			.tech-container {
+				.buttons {
+					display: flex;
+					border-radius: 3px;
+					overflow: hidden;
+					h4 {
+						display: block;
+						flex: 1 1 0;
+						color: $textColor;
+						text-decoration: none;
+						background-color: #f2e7bf;
+						padding: 8px;
+						text-align: center;
+						font-weight: bold;
+					}
+				}
+			}
+		}
+	}
+}

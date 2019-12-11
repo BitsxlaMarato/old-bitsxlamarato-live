@@ -161,13 +161,11 @@
 				},
 				{
 					"id": "15",
-					"title": "Activitat d'empatia",
-					"talk": true,
-					"author": "Sant Joan de Deu",
+					"title": "Activitat d'empatia per Sant Joan de Deu",
 					"startHour": "10:30",
 					"endHour": "12:30",
-					"locationId": "A6002",
-					"locationName": "A6002",
+					"locationId": "A6106",
+					"locationName": "A6106",
 					"description": ""
 				},
 				{

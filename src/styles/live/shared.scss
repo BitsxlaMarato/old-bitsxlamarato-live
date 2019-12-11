@@ -358,6 +358,16 @@ a {
 				// &.gt { background-color: $gtColor; }
 				// &.me { background-color: $meColor; }
 			}
+			h4 {
+				display: block;
+				flex: 1 1 0;
+				color: $textColor;
+				text-decoration: none;
+				background-color: #f2e7bf;
+				padding: 8px;
+				text-align: center;
+				font-weight: bold;
+			}
 		}
 		.label { display: inline; }
 
