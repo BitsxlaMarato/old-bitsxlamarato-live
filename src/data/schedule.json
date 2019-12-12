@@ -69,7 +69,7 @@
 					"id": "6",
 					"title": "Game Serious",
 					"talk": true,
-					"author": "Sant Joan de Deu",
+					"author": "Objetivo Diagnostico",
 					"startHour": "21:15",
 					"endHour": "21:45",
 					"locationId": "A6002",
@@ -89,9 +89,9 @@
 				},
 				{
 					"id": "8",
-					"title": "Malaltia de Dent",
+					"title": "La riquesa de la diversitat",
 					"talk": true,
-					"author": "NostrumDiscovery",
+					"author": "Lluc",
 					"startHour": "21:45",
 					"endHour": "22:10",
 					"locationId": "A6002",
@@ -111,7 +111,7 @@
 				},
 				{
 					"id": "10",
-					"title": "Coneixement a l'abast de les famílies",
+					"title": "Coneixement a l'abast de les famílies (xatbot)",
 					"talk": true,
 					"author": "CREB",
 					"startHour": "22:10",
@@ -122,6 +122,17 @@
 				},
 				{
 					"id": "11",
+					"title": "Malaltia de Dent",
+					"talk": true,
+					"author": "NostrumDiscovery",
+					"startHour": "22:35",
+					"endHour": "23:00",
+					"locationId": "A6001",
+					"locationName": "A6001",
+					"description": ""
+				},
+				{
+					"id": "12",
 					"title": "Objectiu diagnòstic ràpid!",
 					"talk": true,
 					"author": "CREB",
@@ -132,9 +143,9 @@
 					"description": ""
 				},
 				{
-					"id": "12",
+					"id": "13",
 					"title": "Fins demà",
-					"startHour": "23:00",
+					"startHour": "23:30",
 					"description": "Tothom a dormir a casa! Demà més i millor!"
 				}
 			]
@@ -145,31 +156,31 @@
 			"events":
 			[
 				{
-					"id": "13",
+					"id": "14",
 					"title": "Bon dia Hackers!",
 					"startHour": "09:00",
 					"description": "Comença el segon dia de hackathon!"
 				},
 				{
-					"id": "14",
+					"id": "15",
 					"title": "Esmorzar",
 					"startHour": "09:00",
 					"endHour": "10:00",
 					"locationId": "meal",
 					"locationName": "Àrea de menjars",
-					"description": "El bar de la FIB ens porta café per agafar forçes pel día d'avui! També tenim donuts..."
+					"description": "El bar de la FIB ens porta cafè per agafar forçes pel día d'avui! També tenim donuts..."
 				},
 				{
-					"id": "15",
+					"id": "16",
 					"title": "Activitat d'empatia per Sant Joan de Deu",
 					"startHour": "10:30",
-					"endHour": "12:30",
+					"endHour": "12:00",
 					"locationId": "A6106",
 					"locationName": "A6106",
 					"description": ""
 				},
 				{
-					"id": "16",
+					"id": "17",
 					"title": "Dinar",
 					"startHour": "13:00",
 					"endHour": "14:30",
@@ -178,7 +189,7 @@
 					"description": "Hora de dinar! El catering Cufí ens porta un bonísim menú!"
 				},
 				{
-					"id": "17",
+					"id": "18",
 					"title": "Torneig de Lego",
 					"startHour": "18:00",
 					"endHour": "19:00",
@@ -187,7 +198,7 @@
 					"description": "Vine a demostrar la teva creativitat i desconecta una estona a la nostra activitat de Lego!"
 				},
 				{
-					"id": "18",
+					"id": "19",
 					"title": "Dinner",
 					"startHour": "20:00",
 					"endHour": "21:30",
@@ -196,7 +207,7 @@
 					"description": "I com a totes les hackathons, no podia faltar... PIZZA!!!"
 				},
 				{
-					"id": "19",
+					"id": "20",
 					"title": "Fins demà",
 					"startHour": "23:00",
 					"description": "Tothom a dormir a casa! A preparar-se per l'últim dia"
@@ -209,13 +220,13 @@
 			"events":
 			[
 				{
-					"id": "20",
+					"id": "21",
 					"title": "Bon dia Hackers!",
 					"startHour": "09:00",
 					"description": "Comença l'últim dia de hackathon!"
 				},
 				{
-					"id": "21",
+					"id": "22",
 					"title": "Esmorzar",
 					"startHour": "09:00",
 					"endHour": "10:00",
@@ -224,13 +235,13 @@
 					"description": "El bar del Vèrtex ens porta café per agafar forçes pel día d'avui!"
 				},
 				{
-					"id": "22",
+					"id": "23",
 					"title": "Acaba el temps de hacking",
 					"startHour": "12:00",
-					"description": "Recordeu que el projecte ha d'estar penjat a devpost abans de les 12!"
+					"description": "Recordeu que el projecte ha d'estar penjat a Devpost abans de les 12!"
 				},
 				{
-					"id": "23",
+					"id": "24",
 					"title": "Dinar",
 					"startHour": "12:00",
 					"endHour": "13:30",
@@ -239,7 +250,7 @@
 					"description": "Hora de dinar! El bar de Unity/Sodexo ens porta un àpat boníssim!"
 				},
 				{
-					"id": "24",
+					"id": "25",
 					"title": "Demos",
 					"startHour": "13:30",
 					"endHour": "15:15",
@@ -248,7 +259,7 @@
 					"description": "Moment de presentar els projectes!"
 				},
 				{
-					"id": "25",
+					"id": "26",
 					"title": "Cerimonia de clausura",
 					"startHour": "15:30",
 					"endHour": "16:30",
@@ -257,7 +268,7 @@
 					"description": ""
 				},
 				{
-					"id": "26",
+					"id": "27",
 					"title": "Adéu!!",
 					"startHour": "16:30",
 					"description": "Moltes gràcies a tots i totes per participar!!"
