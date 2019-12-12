@@ -351,11 +351,11 @@
   * Result is stored in localStorage
   */
 	function askSubscribeAll (cb) {
-		prompt('Notifications for upcoming events',
-			'<p>Do you want to subscribe to all the events? </p>' +
-				'<p>You will receive a notification 2 minutes before something happens. </p>' +
-				'<p><b>We won\'t spam you:</b> You can always choose to subscribe or unsubscribe by clicking individually on an event.</p>',
-			'All right', function () { if (cb) cb() },
+		prompt('Notificacions durant l\'esdeveniment',
+			'<p>Vols suscriuret al sistema de notificacions durant l\'esdeveniment? </p>' +
+				'<p>Rebràs una notificació dos minuts abans de que tingui lloc un esdeveniment. </p>' +
+				'<p><b>No et farem spam!:</b> Sempre pots subsciure\'t o desusciure\'t seleccionant un esdeveniment.</p>',
+			'Perfecte!', function () { if (cb) cb() },
 			'Nope', function () { /* Do nothing */ })
 		Util.storagePut('askedSubscribeAll', true)
 	}
