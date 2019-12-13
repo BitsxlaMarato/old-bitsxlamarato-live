@@ -39,8 +39,8 @@
 				{
 					"id": "3",
 					"title": "Team Building",
-					"startHour": "19:30",
-					"endHour": "20:00",
+					"startHour": "20:00",
+					"endHour": "20:30",
 					"locationId": "A6001",
 					"locationName": "A6001",
 					"description": "Buscant companys? Vine a l'activitat per trobar un equip!"
